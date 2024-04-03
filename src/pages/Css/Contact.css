@@ -1,0 +1,18 @@
+.page-contact {
+    height: 28vw;
+}
+
+.page-contact-info {
+    width: 90vw;
+    height: 28vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.page-contact-info h1 {
+    color: white;
+    font-size: 1.12vw;
+    font-weight: 300;
+    text-align: center;
+}

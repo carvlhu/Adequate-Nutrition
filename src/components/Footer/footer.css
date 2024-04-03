@@ -1,0 +1,43 @@
+footer {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    background-color: #333333;
+    height: 11vw;
+    opacity: 0.8;
+}
+
+footer  h1 {
+    margin: 1vw 0;
+    font-weight: 400;
+    font-size: 1.6vw;
+}
+
+footer h3 {
+    font-size: 0.9vw;
+    font-weight: 300;
+}
+
+footer h4 {
+    font-size: 0.8vw;
+    font-weight: 300;
+    margin: 0.1vw 0;
+}
+
+footer li {
+    list-style-type: none;
+}
+
+footer ul {
+    display: flex;
+}
+
+footer a{
+    color: white;
+    font-size: 2vw;
+}
+
+.icons{
+    margin: 1.4vw 0;
+}

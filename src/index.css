@@ -1,0 +1,195 @@
+*{
+  margin: 0 auto;
+  padding: 0;
+  font-family: "Lexend Exa", sans-serif;
+}
+body {
+  background-color: #3a3a3a;
+}
+
+body::-webkit-scrollbar {
+  width: 0.44vw; 
+}
+
+body::-webkit-scrollbar-track {
+  background: rgb(219, 219, 219);
+  border-radius: 0.15vw;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: rgb(139, 139, 139);
+  border-radius: 0.22vw;
+}
+
+.linha-hr {
+  display: flex;
+  justify-content: center;
+}
+
+.linha-hr hr {
+  border-radius: 0.3vw;
+  border: none;
+  background-color: #84848470;
+  width: 70%;
+  height: 0.2vw;
+  margin: 8vw 0;
+}
+
+
+/* Main */
+
+/* Section - Welcome */
+.welcome {
+  background: url(../public/img/fundo-welcome.svg) no-repeat center center;
+  background-size: 100%;
+  height: 39vw;
+}
+
+/* Color of texts */
+.welcome h1, h2, p, button {
+  color: white;
+}
+
+/* Title */
+.text-welcome {
+  text-align: center;
+  padding: 5vw 0;
+  font-size: 3.5vw;
+}
+
+.text-about {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 4.3vw;
+}
+
+.text-about span {
+  font-weight: 500;
+}
+
+.about {
+  width: 40vw;
+  text-align: justify;
+  font-weight: 300;
+  font-size: 1.1vw;
+}
+
+.about-imc {
+  width: 23vw;
+  margin-top: -4vw;
+  font-weight: 300;
+  text-align: justify;
+  font-size: 1.1vw;
+}
+
+.about-imc button {
+  border: none;
+  border-radius: 0.3vw;
+  font-size: 1.13vw;
+  display: flex;
+  margin-top: 3vw;
+}
+
+.about-imc a {
+  color: white;
+  background-color: #719fe4 ;
+  padding: 1.5vw 4.2vw;
+  border-radius: 0.3vw;
+  transition: 0.5s;
+  transform: scale(1);
+}
+
+.about-imc a:hover {
+  transition: 0.4s;
+  transform: scale(1.08);
+  opacity: 1;
+  background-color: #135fd1;
+  cursor: pointer;
+}
+/* /Section - Welcome */
+
+
+/* Section - About */
+.sobre {
+  display: flex;
+}
+
+.sobre img {
+  width: 35%;
+}
+
+.part-about {
+  max-width: 39vw;
+  margin-left: -6vw;
+  text-align: justify;
+}
+
+.part-about h1 {
+  font-size: 3.9vw;
+  margin-bottom: 4vw;
+  color: white;
+  font-weight: 400;
+  text-decoration: underline 0.3vw solid #4C89E5;
+}
+
+.part-about p {
+  font-size: 1.03vw;
+  font-weight: 300;
+}
+/* /Section - About */
+
+/* Section - Suplementation */
+.banner-suplementation {
+  background: url("../public/img/Suplementation.svg") no-repeat center center;
+  background-size: 100%;
+  height: 18vw;
+  display: flex;
+  align-items: center;
+  margin-bottom: 6vw;
+}
+.banner-suplementation h1 {
+  font-size: 3vw;
+  font-weight: 400;
+  color: white;
+}
+
+.container-item {
+  margin-bottom: 8vw;
+}
+
+.item {
+  display: flex;
+  border: 0.2vw solid #6c6c6c;
+  border-radius: 1vw;
+  max-width: 63vw;
+  padding: 2vw 4vw;
+  margin-top: 4vw;
+}
+
+.item img {
+  width: 30%;
+}
+
+.descript-item {
+  text-align: justify;
+  margin: 1.3vw 0.8vw;
+}
+
+.descript-item h1 {
+  font-size: 2.3vw;
+  background-image: linear-gradient(to right,#427ACD, #1b3152);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 3vw;
+  text-align: center;
+}
+
+.descript-item p {
+  font-size: 1.01vw;
+  margin: 0 2.5vw;
+  font-weight: 400;
+}
+/* /Section - Suplementation */
+
+/* /Main */

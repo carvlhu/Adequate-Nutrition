@@ -1,0 +1,47 @@
+a {
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+a:hover {
+    opacity: 0.7;
+    transition: 0.3s;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 8vw;
+
+}
+
+.logo a {
+    font-family: "Syncopate", sans-serif;
+    font-size: 4.5vw;
+    font-weight: bold;
+    color: #001F4D;
+}
+
+.logo {
+    transition: 0.5s;
+    transform: scale(1);
+}
+
+.logo:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.nav-list {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-list li > a {
+    margin-left: 5vw;
+    color: #0055D6;
+    font-weight: 500;
+    font-size: 1.1vw;
+}

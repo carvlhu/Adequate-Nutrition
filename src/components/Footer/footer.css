@@ -1,5 +1,4 @@
 footer {
-    display: flex;
     text-align: center;
     justify-content: center;
     color: white;
@@ -8,8 +7,12 @@ footer {
     opacity: 0.8;
 }
 
+footer div {
+    width: 30vw;
+}
+
 footer  h1 {
-    margin: 1vw 0;
+    padding: 1vw 0;
     font-weight: 400;
     font-size: 1.6vw;
 }

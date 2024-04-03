@@ -1,39 +1,25 @@
 {
-    "suplements": [
-        {
-            "id": "1",
-            "name": "Creatina Growth",
-            "img": "https://www.gsuplementos.com.br/upload/produto/layout/70/produto1-creapure250.webp",
-            "description": "A creatina serve como fonte de produção de energia para as células musculares, de modo que melhora a força e o tônus muscular.",
-            "price": "R$84,00"
-        },
-        {
-            "id": "2",
-            "name": "Hipercalórico Mass Titanium",
-            "img": "https://m.media-amazon.com/images/I/514hLWNoMpL._AC_UF1000,1000_QL80_.jpg",
-            "description": "O hipercalórico é um suplemento que traz uma combinação de carboidratos, vitaminas, aminoácidos, minerais e proteínas de alto valor biológico. Ele é desenvolvido especialmente para quem deseja ganhar massa muscular e aumentar o peso.",
-            "price": "R$97,00"
-        },
-        {
-            "id": "3",
-            "name": "Whey-Protein",
-            "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSnD8ljApbv3oR7Z_u2GGIHtVLZHqd8g0QYUME3klHaQ&s",
-            "description": "o whey protein tem alta concentração de cálcio, trazendo benefícios para a saúde óssea do corpo. O consumo do suplemento pode ajudar no aumento da força e da massa muscular após a prática de atividades intensas.",
-            "price": "R$130,00"
-        },
-        {
-            "id": "1",
-            "name": "Creatina Growth",
-            "img": "https://www.gsuplementos.com.br/upload/produto/layout/70/produto1-creapure250.webp",
-            "description": "A creatina serve como fonte de produção de energia para as células musculares, de modo que melhora a força e o tônus muscular.",
-            "price": "R$84,00"
-        },
-        {
-            "id": "2",
-            "name": "Hipercalórico Mass Titanium",
-            "img": "https://m.media-amazon.com/images/I/514hLWNoMpL._AC_UF1000,1000_QL80_.jpg",
-            "description": "O hipercalórico é um suplemento que traz uma combinação de carboidratos, vitaminas, aminoácidos, minerais e proteínas de alto valor biológico. Ele é desenvolvido especialmente para quem deseja ganhar massa muscular e aumentar o peso.",
-            "price": "R$97,00"
-        }
-    ]
+  "suplements": [
+    {
+      "id": "1",
+      "name": "Creatina Growth",
+      "img": "https://www.gsuplementos.com.br/upload/produto/layout/70/produto1-creapure250.webp",
+      "description": "A creatina serve como fonte de produção de energia para as células musculares, de modo que melhora a força e o tônus muscular.",
+      "price": "R$84,00"
+    },
+    {
+      "id": "2",
+      "name": "Hipercalórico Mass Titanium",
+      "img": "https://m.media-amazon.com/images/I/514hLWNoMpL._AC_UF1000,1000_QL80_.jpg",
+      "description": "O hipercalórico é um suplemento que traz uma combinação de carboidratos, vitaminas, aminoácidos, minerais e proteínas de alto valor biológico.",
+      "price": "97,00"
+    },
+    {
+      "id": "3",
+      "name": "Whey-Protein",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSnD8ljApbv3oR7Z_u2GGIHtVLZHqd8g0QYUME3klHaQ&s",
+      "description": "o whey protein tem alta concentração de cálcio, trazendo benefícios para a saúde óssea do corpo. O consumo do suplemento pode ajudar no aumento da força e da massa muscular após a prática de atividades intensas.",
+      "price": "130,00"
+    }
+  ]
 }

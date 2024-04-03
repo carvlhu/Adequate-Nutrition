@@ -4,7 +4,7 @@ import "./Css/Imc.css"
 const fpeso = (peso, setPeso) => {
     return (
         <div>
-            <label>Peso: <input placeholder="Digite seu peso" type="text" value={peso} onChange={(entrada) => {setPeso(entrada.target.value)}} /></label>
+            <label>Peso: (KG)<input placeholder="Digite seu peso" type="text" value={peso} onChange={(entrada) => {setPeso(entrada.target.value)}} /></label>
         </div>
     )
 }
@@ -12,7 +12,7 @@ const fpeso = (peso, setPeso) => {
 const faltura = (altura, setAltura) => {
     return (
         <div>
-            <label>Altura: <input placeholder="Digite sua altura" type="text" value={altura} onChange={(entrada) => {setAltura(entrada.target.value)}} /></label>
+            <label>Altura: (M)<input placeholder="Digite sua altura" type="text" value={altura} onChange={(entrada) => {setAltura(entrada.target.value)}} /></label>
         </div>
     )
 }

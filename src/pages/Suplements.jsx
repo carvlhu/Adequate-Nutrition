@@ -57,22 +57,23 @@ export function Suplements() {
         <section>
 
             <form onSubmit={adicionarItem} className="add-item">
-                <label htmlFor="">Name: <input value={suplementAdd.name} onChange={HandleInputAdicionar} required placeholder="Digite o Nome" type="text" /></label>
-                <label htmlFor="">URL image: <input value={suplementAdd.img} onChange={HandleInputAdicionar} required placeholder="URL da imagem" type="text" /></label>
-                <label htmlFor="">Price: <input value={suplementAdd.price} onChange={HandleInputAdicionar} required placeholder="Digite o preço" type="text" /></label>
-                <label htmlFor="">Description: <input value={suplementAdd.description} onChange={HandleInputAdicionar} required placeholder="Descrição" type="text" /></label>
+                <label htmlFor="">Name: <input required name="name" value={suplementAdd.name} onChange={HandleInputAdicionar} placeholder="Digite o Nome" type="text" /></label>
+                <label htmlFor="">URL image: <input name="img" value={suplementAdd.img} onChange={HandleInputAdicionar} required placeholder="URL da imagem" type="text" /></label>
+                <label htmlFor="">Price: R$<input name="price" value={suplementAdd.price} onChange={HandleInputAdicionar} required placeholder="Digite o preço" type="text" /></label>
+                <label htmlFor="">Description: <input name="description" value={suplementAdd.description} onChange={HandleInputAdicionar} 
+                required placeholder="Descrição" type="text" /></label>
+            
+                <div className="button-adicionar">
+                        <button type="submit">Adicionar</button>
+                </div>
             </form>
-
-            <div className="button-adicionar">
-                    <button type="submit">Adicionar</button>
-            </div>
 
             <div className="container-suplements">
                 {posts.map((suplement) => (
                     <div className="suplement-item" key={suplement.id}>
                         <h3>{suplement.name}</h3>
                         <img src={suplement.img} alt="" />
-                        <h4>{suplement.price}</h4>
+                        <h4>R$ {suplement.price}</h4>
                         <p>{suplement.description}</p>
                     </div>
                 ))}

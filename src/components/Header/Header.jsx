@@ -1,23 +1,29 @@
-import './header.css'
+import './header.css'; // Importa o arquivo de estilo CSS específico para o cabeçalho
 
-export function Header () {
-    return(
-        <>
-        <section>
-            <nav className='nav-bar'>
-                <span className='logo'>
-                    <a href="/">N+</a>
-                </span>
+export function Header() { // Define o componente Header como uma função React
 
-                <ul className='nav-list'>
-                    <li><a href="/">Home</a></li>
-                    <li><a href="/about">About</a></li>
-                    <li><a href="/suplements">Suplements</a></li>
-                    <li><a href="/contact">Contact</a></li>
-                    <li><a href="/imc">IMC</a></li>
-                </ul>
-            </nav>
-        </section>
+    return (
+        <> {/* Fragmento React usado para englobar múltiplos elementos sem adicionar um nó extra ao DOM */}
+
+            {/* Seção principal */}
+            <section>
+                {/* Barra de navegação */}
+                <nav className='nav-bar'> {/* Define a barra de navegação */}
+                    <span className='logo'> {/* Elemento para o logotipo */}
+                        <a href="/">N+</a> {/* Link para a página inicial com o logotipo */}
+                    </span>
+
+                    {/* Lista de navegação */}
+                    <ul className='nav-list'> {/* Define a lista de itens de navegação */}
+                        {/* Itens de navegação */}
+                        <li><a href="/">Home</a></li> {/* Link para a página inicial */}
+                        <li><a href="/about">About</a></li> {/* Link para a página 'About' */}
+                        <li><a href="/suplements">Suplements</a></li> {/* Link para a página de suplementos */}
+                        <li><a href="/contact">Contact</a></li> {/* Link para a página de contato */}
+                        <li><a href="/imc">IMC</a></li> {/* Link para a página de cálculo de IMC */}
+                    </ul>
+                </nav>
+            </section>
         </>
     )
 }

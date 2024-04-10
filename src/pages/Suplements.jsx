@@ -19,7 +19,7 @@ export function Suplements() { // Define o componente Suplements como uma funç�
 
     useEffect(() => { // Utiliza o hook useEffect para executar a função getData quando o componente é montado (equivalente ao componentDidMount)
         getData(); // Chama a função getData para carregar os dados dos suplementos quando o componente é montado
-    }, []); // O segundo argumento vazio [] indica que essa função deve ser executada apenas uma vez, equivalente ao componentDidMount
+    }, [posts]); // O segundo argumento vazio [] indica que essa função deve ser executada apenas uma vez, equivalente ao componentDidMount
 
     const [suplementAdd, setSuplementAdd] = useState({ // Define o estado 'suplementAdd' e a função 'setSuplementAdd' para atualizá-lo, inicializado com um objeto vazio
         name: "",
